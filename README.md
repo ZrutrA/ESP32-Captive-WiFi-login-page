@@ -46,18 +46,18 @@ https://www.arduino.cc/en/software
 Connect your programmed esp32 module to the power supply. Search for and log in to an open Wi-Fi network called "Free WiFi" (or another one if you changed the name during programming).
 In your browser, go to 172.0.0.1/pass . Passwords will be visible there (if they are entered by people trying to log in to the access point).
 
-![pass](https://github.com/ZrutrA/ESP32-WiFi-Captive-Portal/assets/155777818/f9772e2b-02c5-46b7-b7ac-6983a882ed77)
+![pass](https://github.com/ZrutrA/ESP32-WiFi-Captive-Portal/assets/155777818/65cd339a-011c-47a4-a990-e3840e6ea986)
 
 If you click on "Index" you will see what the access point's home page looks like.
 
-![index](https://github.com/ZrutrA/ESP32-WiFi-Captive-Portal/assets/155777818/29fecc19-4d97-4bc0-88da-ef9315b21e11)
+![index](https://github.com/ZrutrA/ESP32-WiFi-Captive-Portal/assets/155777818/fc16452e-c852-463b-8f13-caf5db87392b)
 
 If you click "Change SSID" you will go to a subpage where you can change the network name of the access point.
 
-![ssid](https://github.com/ZrutrA/ESP32-WiFi-Captive-Portal/assets/155777818/7e28b350-d66d-43ab-922b-ec6a14a8faa0)
+![ssid](https://github.com/ZrutrA/ESP32-WiFi-Captive-Portal/assets/155777818/21155a40-538b-43b5-aad4-2023c474aaf5)
 
 If you click "Clear Passwords" you will be able to clear the passwords saved on your device.
 
-![clear](https://github.com/ZrutrA/ESP32-WiFi-Captive-Portal/assets/155777818/398a7726-6834-4d9b-bc64-ce8f5e438ab1)
+![clear](https://github.com/ZrutrA/ESP32-WiFi-Captive-Portal/assets/155777818/871341df-d318-4f31-bfc3-61934a300981)
 
 
