@@ -19,6 +19,8 @@ To build a device with ESP32-WiFi-Captive-Portal, I used the XIAO ESP32S3 module
 
 I enclosed the assembled device in a housing printed on a 3D printer.
 Link to the housing design:https://www.thingiverse.com/thing:3940612
+![fot1](https://github.com/ZrutrA/ESP32-WiFi-Captive-Portal/assets/155777818/672de2bc-eaa3-467a-8633-c086c5b0617c)
+![fot2](https://github.com/ZrutrA/ESP32-WiFi-Captive-Portal/assets/155777818/19edbfaa-fda0-462a-9cf7-e4bb68b88b4d)
 
 ## Installation using Arduino IDE.
 
