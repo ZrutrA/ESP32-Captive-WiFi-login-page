@@ -14,7 +14,8 @@ This project is of a testing and educational nature. Only use it so that you do 
 
 ## Connection diagram
 
-To build a device with ESP32-WiFi-Captive-Portal, I used the XIAO ESP32S3 module with an external WiFi antenna (you can use any ESP32 module with an external or built-in antenna). I also used a green LED and a USB A cable.
+To build a device with ESP32-WiFi-Captive-Portal, I used the XIAO ESP32S3 module with an external WiFi antenna (any ESP32 module with an external or built-in antenna can be used). I also used a green LED and a USB A - micro USB cable. I connected the diode to output 3. If you connect the LED to another output in your module, remember to change the led_gpio = 3 parameter in the program to the appropriate one.
+![ESP32-WiFi-Captive-Portal-Connection](https://github.com/ZrutrA/ESP32-WiFi-Captive-Portal/assets/155777818/d818ba4c-ae36-4ab3-a51a-388872a37e2d)
 
 I enclosed the assembled device in a housing printed on a 3D printer.
 Link to the housing design:https://www.thingiverse.com/thing:3940612
