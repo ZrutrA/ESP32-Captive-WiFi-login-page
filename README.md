@@ -4,9 +4,8 @@
 
 This project is a modification of https://github.com/adamff-dev/ESP8266-Captive-Portal
 
-The programmed ESP32 chip creates an access point with any name that is used to capture passwords.
-Captured passwords are saved in the ESP32 memory and do not disappear after restarting/turning off the device.
-The built-in LED will flash 5 times after entering the password.
+The programmed ESP32 chip creates an access point with any name that is used to capture passwords. Captured passwords are saved in the ESP32 memory and do not disappear after restarting/shutting down the device. When the new password is saved on the device, the LED will first flash 5 times and then turn on continuously. If you have the device in sight, you immediately know that you have a new password.
+
 I provide versions in English and Polish.
 
 ## Reservation
