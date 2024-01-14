@@ -12,6 +12,13 @@ I provide versions in English and Polish.
 
 This project is of a testing and educational nature. Only use it so that you do not break the law. I take no responsibility for what you do with this program.
 
+## Connection diagram
+
+To build a device with ESP32-WiFi-Captive-Portal, I used the XIAO ESP32S3 module with an external WiFi antenna (you can use any ESP32 module with an external or built-in antenna). I also used a green LED and a USB A cable.
+
+I enclosed the assembled device in a housing printed on a 3D printer.
+Link to the housing design:
+
 ## Installation using Arduino IDE.
 
 1. Download and install Arduino IDE
