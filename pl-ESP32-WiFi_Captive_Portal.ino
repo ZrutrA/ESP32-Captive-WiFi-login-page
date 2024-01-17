@@ -121,7 +121,7 @@ String clear() {
 }
 
 void LEDON()
-{ // After entering the password, the diode connected to output no. 3 will flash for 5 seconds and then be on continuously.
+{ // After entering the password, the diode connected to the output declared in the led_gpio parameter will blink for 5 seconds and then be on constantly.
   for (int counter = 0; counter < 10; counter++)
   {
     // For blinking the LED.
@@ -131,7 +131,7 @@ void LEDON()
 }
 
 void LEDOFF()
-{ // After clearing the password, the diode connected to output no. 3 will flash for 5 seconds and then turn off.
+{ // After clearing the password, the diode connected to the output declared in the led_gpio parameter will blink for 5 seconds and then turn off.
   for (int counter = 0; counter < 11; counter++)
   {
     // For blinking the LED.
