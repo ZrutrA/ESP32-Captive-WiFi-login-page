@@ -1,4 +1,4 @@
-# ESP32-WiFi-Captive-Portal
+# ESP32 Captive WiFi login page
 
 ## About this project
 
