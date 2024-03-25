@@ -96,7 +96,7 @@ String pass() {
 }
 
 String ssid() {
-  return header("Change SSID") + "<p>Here you can change the SSID name. After pressing the "Change SSID" button, you will lose the connection, so restart your device from Captive Portal and reconnect to the new SSID.</p>" + "<form action=/postSSID method=post><label>New SSID:</label>" +
+  return header("Change SSID") + "<p>Here you can change the SSID name. After pressing the „Change SSID” button, you will lose the connection, so restart your device from Captive Portal and reconnect to the new SSID.</p>" + "<form action=/postSSID method=post><label>New SSID:</label>" +
          "<input type=text name=s></input><input type=submit value=\"Change SSID\"></form>" + footer();
 }
 
