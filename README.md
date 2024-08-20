@@ -44,7 +44,7 @@ https://www.arduino.cc/en/software
 
 ## Start-up and operation
 
-Connect your programmed esp32 module to the power supply. Search for and log in to an open Wi-Fi network called "Free WiFi" (or another one if you changed the name during programming).
+Connect your programmed esp32 module to the power supply. Search for and log in to an open Wi-Fi network called "Free WiFi" (or another one if you changed the name during programming). Click on Use this network as is.
 In your browser, go to 172.0.0.1/pass . Passwords will be visible there (if they are entered by people trying to log in to the access point).
 
 ![pass](https://github.com/ZrutrA/ESP32-WiFi-Captive-Portal/assets/155777818/65cd339a-011c-47a4-a990-e3840e6ea986)
