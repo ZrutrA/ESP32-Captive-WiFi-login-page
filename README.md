@@ -1,4 +1,4 @@
-# ESP32 Captive WiFi login page
+# ESP32 Fake WiFi login page capturing passwords
 
 ## About this project
 
