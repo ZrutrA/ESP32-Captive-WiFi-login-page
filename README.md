@@ -21,7 +21,7 @@ To build the device with ESP32-Fake-WiFi-login-page, I used the XIAO ESP32C3 mod
 I enclosed the assembled device in a housing printed on a 3D printer. 
 I am sharing the ESP32 BOX-v1.stl file - throw it on a 3D printer and make an identical housing.
 
-https://github.com/ZrutrA/ESP32-Fake-WiFi-login-page/blob/main/fot1.jpg
+![FOT1](https://github.com/ZrutrA/ESP32-Fake-WiFi-login-page/blob/main/fot1.jpg)
 
 ## Installation using Arduino IDE.
 
