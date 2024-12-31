@@ -29,7 +29,7 @@ I am sharing the ![ESP32 BOX-v1.stl](https://github.com/ZrutrA/ESP32-Fake-WiFi-l
 https://www.arduino.cc/en/software
 (This manual is based on arduino-ide_2.2.1 version)
 
-2. Download the file pl-ESP32-WiFi_Captive_Portal.ino to your computer and open it in the Arduino IDE by clicking File -> Open
+2. Download the file en-ESP32-Fake-WiFi-login-page.ino (english version) or pl-ESP32-Fake-WiFi-login-page.ino (polish version) to your computer and open it in the Arduino IDE by clicking File -> Open
 
 3. Launch the Arduino IDE, go to Tools -> Board -> Boards Manager. In the "Filter your search" field, enter esp32. Install "Ardunio ESP32 Boards by ardunio" and "ESP32 by espressif Systems".
 
