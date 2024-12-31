@@ -19,7 +19,7 @@ To build the device with ESP32-Fake-WiFi-login-page, I used the XIAO ESP32C3 mod
 ![ESP32-Captive-WiFi-login-page-Connection](https://github.com/ZrutrA/ESP32-Captive-WiFi-login-page/assets/155777818/175acfb6-882d-4bd8-ba63-a6223a130704)
 
 I enclosed the assembled device in a housing printed on a 3D printer. 
-Link to the housing design:https://www.thingiverse.com/thing:3940612
+I am sharing the ESP32 BOX-v1.stl file - throw it on a 3D printer and make an identical housing.
 
 ![fot1](https://github.com/ZrutrA/ESP32-WiFi-Captive-Portal/assets/155777818/672de2bc-eaa3-467a-8633-c086c5b0617c)
 ![fot2](https://github.com/ZrutrA/ESP32-WiFi-Captive-Portal/assets/155777818/19edbfaa-fda0-462a-9cf7-e4bb68b88b4d)
