@@ -16,7 +16,7 @@ This project is of a testing and educational nature. Only use it so that you do 
 
 To build the device with ESP32-Fake-WiFi-login-page, I used the XIAO ESP32C3 module with an external WiFi antenna (any ESP32 module with an external or built-in antenna can be used). I also used a green LED (330 ohm resistor protects the LED from damage) and a USB-A to USB-C cable. I connected the diode to output 4. If we connect the LED to another output in our module, remember to change the led_gpio=4 parameter in the program to the appropriate one.
 
-![ESP32-Captive-WiFi-login-page-Connection](https://github.com/ZrutrA/ESP32-Captive-WiFi-login-page/assets/155777818/175acfb6-882d-4bd8-ba63-a6223a130704)
+![ESP32-Fake-WiFi-login-page-Connection](https://github.com/ZrutrA/ESP32-Fake-WiFi-login-page/blob/main/ESP32-Fake-WiFi-login-page-Connection-v1.4.jpg)
 
 I enclosed the assembled device in a housing printed on a 3D printer. 
 I am sharing the ESP32 BOX-v1.stl file - throw it on a 3D printer and make an identical housing.
